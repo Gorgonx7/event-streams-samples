@@ -1,0 +1,3 @@
+#!/bin/bash
+brokers="kafka-0.mh-int-ynsgqgghfsqrxzdw-6fc3ea743571ba7392ba4250a5946fd9-0000.us-south.containers.appdomain.cloud:9093,kafka-2.mh-int-ynsgqgghfsqrxzdw-6fc3ea743571ba7392ba4250a5946fd9-0000.us-south.containers.appdomain.cloud:9093,kafka-1.mh-int-ynsgqgghfsqrxzdw-6fc3ea743571ba7392ba4250a5946fd9-0000.us-south.containers.appdomain.cloud:9093"
+java -jar ./build/libs/kafka-java-console-schema-sample-2.0.jar ${brokers} https://mh-int-ynsgqgghfsqrxzdw-6fc3ea743571ba7392ba4250a5946fd9-0000.us-south.containers.appdomain.cloud O8QLNeapYao7y1FNF33HVGhyEHSdF1EZ7vvTqhJkEfW_ -producer

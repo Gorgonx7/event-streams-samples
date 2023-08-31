@@ -1,0 +1,10 @@
+{
+ "namespace": "com.eventstreams.samples",
+ "type": "record",
+ "name": "Message",
+ "fields": [
+     {"name": "message", "type": "string"},
+     {"name": "message_number", "type": "int"},
+     {"name": "message_content_type", "type":"string", "default":"json"}
+ ]
+}
